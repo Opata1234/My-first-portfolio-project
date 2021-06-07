@@ -4,9 +4,18 @@ img{
 }
 section h2{
     text-align: center;
+    color: red;
 
 }
-.container{
+#contain1{
  text-align: center;
  padding-top: 20px;
+}
+ #contain1 h2{
+color: red;
+ 
+}
+#contain2{
+    text-align: center;
+    padding-top: 20px;
 }
