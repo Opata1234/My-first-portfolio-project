@@ -1,47 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-
-<section>
-    <span>
-        <img src="images/P2021-05-23-Liverpool_Crystal_Palace-97.jpg">
-    </span>
-    <h2>AQUINAS OPATA</h2>
-</section>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="container" id="contain1"> 
-        <span>
-            <h2>ABOUT ME</h2>
-            <p>Hello! this is short information about my background to help you understand me better. I chose this program because is one the most demanding skills needed. Below is a list about my education background.</p>
-        </span>
+    <nav class="navbar">
         <ul>
-            <li>Primary: SIKOMA</li>
-            <li>Secondary: BUTULA BOYS</li>
-            <li>Collage JKUAT</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#section">Services</a></li>
         </ul>
-    </div>
-    <div class="container" id="contain2">
-        <span>
-            <h2>INTERESTS/HOBBIES</h2>
-            <span>
-                <ol>
-                    <li>Watching football</li>
-                    <li>Cooking</li>
-                    <li>Watching movies</li>
-                    <li>Playing football</li>
-                </ol>
-            </span>
-        </span>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM <br> AQUINAS OPATA</h1>
+            <button class="btn">
+                Hire Me
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+
+        <div id="pic">
+            <img src="images/IMG_20210602_072532.jpg" alt="" width="20%" height="50%">
+            <div id="intro">
+            <p>My name is Aquinas Opata. I am passionate about my work, I am also ambitious and driven. curently I am Morimga prep course hoping by the end ot the course I will be ready to work with my passion.
+                HOBBIES:
+                Watching football,
+                Watching movies,
+                Gaming,
+                Gamboling.
+                Academic: Sikoma primary school, Butula boys high school.
+            
         
-    </div>
-    
+
+            </p>
+
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="images/ccccc.webp" alt="">
+            <img src="images/aaaaaa.webp" alt="">
+            <img src="images/jjjjjjj.webp" alt="">
+            <img src="images/ManeLBB.png" alt="">
+            <img src="images/200w.gif" alt="">
+            <img src="images/1261871_0.jpg" alt="">
+        </div>
+
+
+    </section>
+
+    <section id="section">
+        <h1 class="headings">services</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="heading">Website Design</h1>
+                <img src="./m4.webp" alt="">
+                <p>Add an experience and knowledgeable marketing professional to your internal staff for an agreed
+                    number of hours per week. As part of the internal team your organization will benefit from our broad
+                    range of expertise.</p>
+            </div>
+            <div class="box">
+                <h1 class="heading">Digital Marketing</h1>
+                <img src="./m5.webp" alt="">
+                <p>Looking for someone to create a website that will market your products? Look no more.</p>
+            </div>
+            <div class="box">
+                <h1 class="heading">UX/UI <br> Design</h1>
+                <img src="./m2.webp" alt="">
+                <p>My strategic expertise and processes help owners build the right foundation that focuses on
+                    deliverables
+                    with positive Features.</p>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    <!-- <section id="contact">
+        <h1 class="headings"> CONTACT</h1>
+        <from action=" class=" form">
+            <input type="text" name="name" class"input" placeholder="Enter your name">
+            <input types="email" name="email" c="input" placeholder="Enter your email">
+            <textarea name="msg" cols="30" rows="10"><</textarea>
+            <input type="submit" value="send" </form>
+    </section> -->
 </body>
+
 </html>
